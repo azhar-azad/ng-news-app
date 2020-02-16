@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "ng-news-app": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-news-app"
+    }
+  },
+  "defaultProject": "ng-news-app",
+  "cli": {
+    "analytics": "8d63832e-7e28-4650-b130-0d4dd01e91e8"
+  }
 }
